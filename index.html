@@ -1,0 +1,75 @@
+<html lang="id">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Portofolio Kusniadi</title>
+    <link rel="stylesheet" href="css\style.css">
+</head>
+<body>
+    <header>
+        <div>
+            <img src="https://storage.googleapis.com/a1aa/image/YE6RDs-i823MzCgbDaQNHqTIDjWoB-9hTT6TSqYnpgg.jpg" alt="Logo" width="40" height="40">
+            <span>Portofolio Kusniadi</span>
+        </div>
+        <nav>
+            <a href="#">Beranda</a>
+            <a href="#profile">Tentang Saya</a>
+            <a href="#skills">Keahlian</a>
+            <a href="#contact">Kontak</a>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="banner">
+            Selamat Datang di Portofolio Saya
+        </section>
+        <section id="profile">
+            <h2>Tentang Saya</h2>
+            <p>Halo, nama saya Kusniadi. Saya adalah mahasiswa S1 Sistem Informasi di Universitas Terbuka. Saya memiliki minat besar dalam rekayasa perangkat lunak dan pengembangan web.</p>
+        </section>
+        <section id="skills">
+            <h2>Keahlian Saya</h2>
+            <div class="skills">
+                <div>
+                    <img src="https://storage.googleapis.com/a1aa/image/9_mgvWCoYO9y6dWp_syIUTlzTJsRP39RVRV3boYswyU.jpg" alt="Pemrograman">
+                    <p>Pemrograman</p>
+                </div>
+                <div>
+                    <img src="https://storage.googleapis.com/a1aa/image/vVWOSEok2LUg42_oZsWP9q-4dD1DLr6DyOV_DTbbHUg.jpg" alt="Pengembangan Web">
+                    <p>Pengembangan Web</p>
+                </div>
+                <div>
+                    <img src="https://storage.googleapis.com/a1aa/image/dewM1_jiejVttApm1ubJ0OQ5PZ35r1pKcA7IxDvchGI.jpg" alt="Manajemen Basis Data">
+                    <p>Manajemen Basis Data</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Kontak Saya</h2>
+            <div class="contact">
+                <form id="contactForm">
+                    <label for="name">Nama</label>
+                    <input type="text" id="name" placeholder="Nama">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Email">
+                    <label for="phone">Nomor Telepon</label>
+                    <input type="tel" id="phone" placeholder="Nomor Telepon">
+                    <label for="message">Pesan</label>
+                    <textarea id="message" placeholder="Pesan"></textarea>
+                    <button type="submit">Kirim</button>
+                </form>
+                <div class="output" id="formOutput">
+                    <p><span class="label">Waktu saat ini:</span> <span id="currentTime"></span></p>
+                    <p><span class="label">Nama:</span> <span id="outputName"></span></p>
+                    <p><span class="label">Email:</span> <span id="outputEmail"></span></p>
+                    <p><span class="label">Nomor Telepon:</span> <span id="outputPhone"></span></p>
+                    <p><span class="label">Pesan:</span> <span id="outputMessage"></span></p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Dibuat oleh Kusniadi</p>
+    </footer>
+    <script src="js\script.js"></script>
+</body>
+</html>
