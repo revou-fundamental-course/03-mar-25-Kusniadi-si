@@ -38,7 +38,7 @@ header nav a:hover {
 }
 
 .banner {
-    background-image: url(/assets/bintang.jpg);
+    background-image: url(../assets/bintang.jpg);
     background-size: cover;
     background-position: center;
     height: 600px;
